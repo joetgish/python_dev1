@@ -39,7 +39,7 @@ def trapezoid(f, a, b, n, debug = False):
 def main():
 	a = 0.0
 	b = 5.0
-	n = 10
+	n = 10000
 	s = trapezoid(f, a, b, n, True)
 	print s
 
